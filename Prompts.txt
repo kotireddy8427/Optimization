@@ -1,0 +1,25 @@
+"Create a simple in-memory cache module in React:
+- Functions: setCache(key, data, ttl), getCache(key), invalidateCache(key)
+- Cache API responses for frequently accessed data.
+- Expire cache after a configurable TTL."
+Mock Claims API with Pagination
+"Create a mock claims API module:
+- Function fetchClaims(page, pageSize) returns paginated claim data.
+- Use cache to return cached data if available.
+- Simulate network delay for realism.
+- Track request count and total response time for performance metrics."
+  Generic API Hook
+"Create a React hook useApi(apiFunction):
+- Handles async API calls with loading, error, and data state.
+- Returns { data, loading, error, execute }.
+- Handles errors gracefully."
+"Create ClaimsList component:
+- Displays paginated list of claims.
+- Include Previous and Next buttons for pagination.
+- Lazy-loads data as user navigates pages.
+- Displays cache hit info when data comes from cache."
+"Create MonitoringDashboard component:
+- Fetches and displays API performance metrics.
+- Metrics include request count and average response time.
+- Updates metrics in real-time using setInterval."
+"Create App.js to render MonitoringDashboard and ClaimsList components together."
